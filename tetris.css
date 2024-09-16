@@ -1,0 +1,67 @@
+/* Estilos para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('fundo-de-montanha-4k-l3f04sogeaabr5h0.jpg'); /* Imagem de fundo */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a tela */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container do jogo */
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Estilo do canvas */
+canvas {
+    border: 4px solid #333; /* Borda mais grossa e escura */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para destacar o canvas */
+    background-image: url('imagem-fundo-canvas.jpg'); /* Imagem de fundo do canvas */
+    background-size: cover;
+}
+
+/* Estilos dos botões */
+#controls {
+    margin-top: 15px;
+}
+
+#controls button {
+    background-color: #3498db; /* Cor de fundo azul */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito ao passar o mouse sobre os botões */
+#controls button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo ao clicar no botão */
+#controls button:active {
+    background-color: #1f6390;
+}
+
+/* Estilo do placar (pontuação e nível) */
+#scoreboard {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
